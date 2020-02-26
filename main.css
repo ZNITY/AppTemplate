@@ -111,12 +111,17 @@ body a{
 .shoes{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .allshoes{
+  display: inline-block;
   width: 200px;
   text-align: center;
-  margin: 20px 20px;
+  margin: 20px;
 }
 .allshoes img{
   width: 100%;
+}
+.dropdown-content{
+  margin: 40px 0;
 }
