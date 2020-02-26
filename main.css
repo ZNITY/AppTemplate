@@ -113,7 +113,9 @@ input{
 }
 .shoes{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
 }
 .allshoes{
@@ -142,5 +144,21 @@ input{
   color: #00B1FF;
 }
 .displayshoe{
-  width: 500px;
+  width: 45%;
+  background-color: #EDF1F4;
+  float: right;
+  text-align: center;
+}
+.shoesonleft{
+  float: left;
+  width: 55%;
+}
+.displayshoe img{
+  margin: 20px 0;
+}
+.iconsbellowimg{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  color: #95989A;
 }
